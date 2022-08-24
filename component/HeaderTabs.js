@@ -13,6 +13,13 @@ export default function HeaderTabs() {
         setActiveTabP={setActiveTab}
       />
       <HeaderButton
+        text="Pickup"
+        btnColor="black"
+        textColor="white"
+        activeTabP={activeTab}
+        setActiveTabP={setActiveTab}
+      />
+      <HeaderButton
         text="Product"
         btnColor="black"
         textColor="white"
@@ -20,19 +27,15 @@ export default function HeaderTabs() {
         setActiveTabP={setActiveTab}
       />
       <HeaderButton
-        text="Service"
+        text="Services"
         btnColor="black"
         textColor="white"
         activeTabP={activeTab}
         setActiveTabP={setActiveTab}
       />
-      <HeaderButton
-        text="Pickup"
-        btnColor="white"
-        textColor="black"
-        activeTabP={activeTab}
-        setActiveTabP={setActiveTab}
-      />
+      
+     
+      
     </View>
   );
 }
