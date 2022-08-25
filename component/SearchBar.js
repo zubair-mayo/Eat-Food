@@ -11,13 +11,13 @@ export default function Restaurants() {
           placeholder="Search"
           styles={{
             textInput: {
-              backgroundColor: "gray",
+              backgroundColor: "white",
               borderRadius: 20,
               fontWeight: "700",
               marginTop: 7,
             },
             textInputContainer: {
-              backgroundColor: "gray",
+              backgroundColor: "white",
               borderRadius: 50,
               flexDirection: "row",
               alignItem: "center",
