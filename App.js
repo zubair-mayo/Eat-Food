@@ -1,6 +1,6 @@
-import { View, Text } from 'react-native'
-import React from 'react'
-import Home from './screen/Home'
+import { View } from "react-native";
+import React from "react";
+import Home from "./screen/Home";
 
 export default function App() {
   return (
@@ -8,5 +8,4 @@ export default function App() {
       <Home />
     </View>
   );
-
 }
